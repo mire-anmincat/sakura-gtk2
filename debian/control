@@ -1,0 +1,13 @@
+Source:  sakura-gtk2
+Section: devel
+Priority: optional
+Maintainer: Supphakit Duanghoy <46396282+supphakitbvn@users.noreply.github.com>
+Build-Depends: debhelper (>= 9), autotools-dev, build-essential, libc6,
+ libglib2.0-0, pkg-config, libglib2.0-dev, cmake, libgtk2.0-dev, libvte-dev
+
+Package: sakura-gtk2
+Architecture: any
+Depends: libc6, libglib2.0-0, libgtk-2-0, libpango-1.0-0, libgtk2.0-0, libvte9
+Description: Sakura is a terminal emulator based on GTK+ and VTE.
+ It's a terminal emulator with few dependencies,
+ so you don't need a full GNOME desktop installed to have a decent terminal emulator.
